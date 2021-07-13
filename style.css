@@ -11,7 +11,7 @@
     border-radius: 10px;
 }
 .navbar {
-    margin: 10px;
+    margin: 8px;
     min-width: auto;
     display: flex;
     padding: 0 8px;
@@ -61,4 +61,14 @@ a {
     border-radius: 50%;
     box-shadow: inset 0 0 0 10px rgba(95, 99, 104, 0.2);
 
+}
+.flexbox_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+.searchbar {
+    margin: 10px;
 }
