@@ -71,4 +71,26 @@ a {
 }
 .searchbar {
     margin: 10px;
+    position: relative;
+    display: flex;
+    min-width: 500px;
+}
+.search-icon {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 22px;
+}
+
+.search {
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    height: 30px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: transparent;
+}
+.search:hover {
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.25);
 }
